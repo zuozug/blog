@@ -25,26 +25,32 @@ title = '搭服务器'
 
 3月4号，所有配件都到了。
 
-<div style="text-align: center;">
-  <img src="../../static/server/1.jpg" width="400" alt="电脑配件">
-  <p>图 1：我的电脑配件们</p>
-</div>
+<figure style="text-align: center; margin: 1.5rem 0;">
+  <img src="/server/1.jpg" alt="电脑配件" style="display: block; margin: 0 auto; width: 80%;">
+  <figcaption>图 1：我的电脑配件们</figcaption>
+</figure>
+
+
 
 虽说没有实际安装过任何一台电脑主机，但我多次拆开我的笔记本和天天观看装机视频，所以很快便轻松点亮。在操作系统方面，我选择了Debian 13 (trixie)，这是因为我曾在我的二手轻薄本上安装Debian 12，对这个系统较有好感。~~亲爱的女朋友最爱Arch Linux，不过虽然我也很爱折腾电脑，但也远远没到愿意折腾Arch的地步。~~
 
-<div style="text-align: center;">
-  <img src="../../static/server/2.jpg" width="400" alt="点亮">
-  <p>图 2：成功点亮</p>
-</div>
+<figure style="text-align: center; margin: 1.5rem 0;">
+  <img src="/server/2.jpg" alt="点亮" style="display: block; margin: 0 auto; width: 80%;">
+  <figcaption>图 2：成功点亮</figcaption>
+</figure>
+
+
 
 本以为大功告成了，结果却发现我一开始购入的机箱塞不下这块ATX主板，原来是买成了mATX……急于装入机箱打包带走的我随即在闲鱼联系了一位同城自提的大机箱，没想到的是，在我骑小电驴将机箱拿回来后，居然还是不够大！不得已只能在京东上买了一个全新的、明明白白写着支持ATX主板的机箱。至于没用上的两个机箱，全都捐赠给学院的电脑维修志愿服务队了。
 
 机箱到了后又发现主板供电线不够长，于是又购入24pin延长线……就这样反复折腾，终于在3月9号，一切大功告成！
 
-<div style="text-align: center;">
-  <img src="../../static/server/3.jpg" width="400" alt="机箱">
-  <p>图 3：装入机箱</p>
-</div>
+<figure style="text-align: center; margin: 1.5rem 0;">
+  <img src="/server/3.jpg" alt="装入机箱" style="display: block; margin: 0 auto; width: 80%;">
+  <figcaption>图 3：装入机箱</figcaption>
+</figure>
+
+
 
 将电脑搬到我的住处，我跟着GPT开始学习运行一台服务器所需要的知识。不得不承认，GPT操作电脑的能力远远大于我，我所能干的只有叫他讲的慢一点，跟我讲清楚每个指令起到的作用。在反复对话中，我慢慢开始理清楚文件管理和网络结构，这些知识我虽在备考408时学到过，但真的让我来维护服务器，感觉完全无从下手。
 

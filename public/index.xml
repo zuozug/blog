@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>zuozug 的博客</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on zuozug 的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 28 Mar 2026 23:44:35 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搭服务器</title>
+      <link>http://localhost:1313/posts/server/</link>
+      <pubDate>Sat, 28 Mar 2026 23:44:35 +0800</pubDate>
+      <guid>http://localhost:1313/posts/server/</guid>
+      <description>&lt;p&gt;2026年2月，我考完研回家呆着，机缘巧合下拿到了一批淘汰的服务器内存条。拥有一台服务器来支撑我的各种奇妙想法一直是我的梦想之一，于是3月初我带着内存条回到了学校。&lt;/p&gt;
+&lt;p&gt;我记得在我刚上大学的时候，有很多人在百度贴吧询问电脑配置，不过现在容易多了，我通过 ChatGPT 轻松的得到了一套服务器配置：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;配件&lt;/th&gt;
+          &lt;th&gt;型号&lt;/th&gt;
+          &lt;th&gt;价格&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;主板&lt;/td&gt;
+          &lt;td&gt;超微X9SCA-F&lt;/td&gt;
+          &lt;td&gt;闲鱼 145元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CPU&lt;/td&gt;
+          &lt;td&gt;Intel® Xeon® Processor E3-1230 v2&lt;/td&gt;
+          &lt;td&gt;淘宝 65元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;RAM&lt;/td&gt;
+          &lt;td&gt;4GB ECC DDR3 * 4&lt;/td&gt;
+          &lt;td&gt;0元购&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GPU&lt;/td&gt;
+          &lt;td&gt;便宜亮机显卡&lt;/td&gt;
+          &lt;td&gt;闲鱼 36元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;SSD&lt;/td&gt;
+          &lt;td&gt;忆捷 120GB SATA&lt;/td&gt;
+          &lt;td&gt;京东 149元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;HDD&lt;/td&gt;
+          &lt;td&gt;西数蓝盘 500GB SATA（像翻新的，不知道能用多久）&lt;/td&gt;
+          &lt;td&gt;闲鱼 57元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;散热器&lt;/td&gt;
+          &lt;td&gt;九州风神玄冰400&lt;/td&gt;
+          &lt;td&gt;闲鱼 30元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;机箱风扇&lt;/td&gt;
+          &lt;td&gt;12cm风扇 * 2&lt;/td&gt;
+          &lt;td&gt;闲鱼 8.4元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;机箱&lt;/td&gt;
+          &lt;td&gt;长城 本色K13&lt;/td&gt;
+          &lt;td&gt;京东 94.9元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;电源&lt;/td&gt;
+          &lt;td&gt;网吧拆机二手微星 额定500W&lt;/td&gt;
+          &lt;td&gt;闲鱼 59元&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;总计：644.3元&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;3月4号，所有配件都到了。&lt;/p&gt;
+&lt;figure style=&#34;text-align: center; margin: 1.5rem 0;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/server/1.jpg&#34; alt=&#34;电脑配件&#34; style=&#34;display: block; margin: 0 auto; width: 80%;&#34;&gt;
+  &lt;figcaption&gt;图 1：我的电脑配件们&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;虽说没有实际安装过任何一台电脑主机，但我多次拆开我的笔记本和天天观看装机视频，所以很快便轻松点亮。在操作系统方面，我选择了Debian 13 (trixie)，这是因为我曾在我的二手轻薄本上安装Debian 12，对这个系统较有好感。&lt;del&gt;亲爱的女朋友最爱Arch Linux，不过虽然我也很爱折腾电脑，但也远远没到愿意折腾Arch的地步。&lt;/del&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>http://localhost:1313/posts/hello/</link>
+      <pubDate>Sat, 28 Mar 2026 01:27:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>&lt;p&gt;hello world, this is my first blog&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/</guid>
+      <description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;p&gt;title: &amp;ldquo;归档&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;layout: &amp;ldquo;archives&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;url: &amp;ldquo;/archives/&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;summary: archives&lt;/p&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;p&gt;title: &amp;ldquo;搜索&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;layout: &amp;ldquo;search&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;url: &amp;ldquo;/search/&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;summary: search&lt;/p&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
