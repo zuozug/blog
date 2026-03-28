@@ -1,6 +1,6 @@
 +++
 date = '2026-03-28T23:44:35+08:00'
-draft = true
+draft = false
 title = '搭服务器'
 
 +++
