@@ -25,12 +25,16 @@ jobs:
         run: hugo
 
       - name: Setup SSH key
-        run: |
-          mkdir -p ~/.ssh
-          printf "%s" "${{ secrets.SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no ${{ secrets.USERNAME }}@${{ secrets.HOST }} "echo ok"
+  	env:
+    		SSH_KEY: ${{ secrets.SSH_KEY }}
+    		HOST: ${{ secrets.HOST }}
+    		USERNAME: ${{ secrets.USERNAME }}
+  	run: |
+    		mkdir -p ~/.ssh
+    		printf "%s\n" "$SSH_KEY" > ~/.ssh/id_ed25519
+    		chmod 600 ~/.ssh/id_ed25519
+    		ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts
+    		ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no "$USERNAME@$HOST" "echo ok"
 
       - name: Upload public files
         run: |
