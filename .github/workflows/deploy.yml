@@ -28,17 +28,19 @@ jobs:
         env:
           SSH_KEY: ${{ secrets.SSH_KEY }}
           HOST: ${{ secrets.HOST }}
+          PORT: ${{ secrets.PORT }}
           USERNAME: ${{ secrets.USERNAME }}
         run: |
           mkdir -p ~/.ssh
           printf "%s\n" "$SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no "$USERNAME@$HOST" "echo ok"
+          ssh-keyscan -p "$PORT" -H "$HOST" >> ~/.ssh/known_hosts
+          ssh -i ~/.ssh/id_ed25519 -p "$PORT" -o StrictHostKeyChecking=no "$USERNAME@$HOST" "echo ok"
 
       - name: Upload public files
         env:
           HOST: ${{ secrets.HOST }}
+          PORT: ${{ secrets.PORT }}
           USERNAME: ${{ secrets.USERNAME }}
         run: |
-          rsync -avz --delete public/ "$USERNAME@$HOST:/var/www/blog/"
+          rsync -avz --delete -e "ssh -p $PORT -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no" public/ "$USERNAME@$HOST:/var/www/blog/"
