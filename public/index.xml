@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>zuozug 的博客</title>
+    <link>https://blog.zuozug.com/</link>
+    <description>Recent content on zuozug 的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 28 Mar 2026 01:27:27 +0800</lastBuildDate>
+    <atom:link href="https://blog.zuozug.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>https://blog.zuozug.com/posts/hello/</link>
+      <pubDate>Sat, 28 Mar 2026 01:27:27 +0800</pubDate>
+      <guid>https://blog.zuozug.com/posts/hello/</guid>
+      <description>&lt;p&gt;hello world, this is my first blog&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blog.zuozug.com/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.zuozug.com/archives/</guid>
+      <description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;p&gt;title: &amp;ldquo;归档&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;layout: &amp;ldquo;archives&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;url: &amp;ldquo;/archives/&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;summary: archives&lt;/p&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blog.zuozug.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.zuozug.com/search/</guid>
+      <description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;p&gt;title: &amp;ldquo;搜索&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;layout: &amp;ldquo;search&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;url: &amp;ldquo;/search/&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;summary: search&lt;/p&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

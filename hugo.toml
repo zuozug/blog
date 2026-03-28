@@ -1,0 +1,45 @@
+baseURL = "https://blog.zuozug.com/"
+languageCode = "zh-cn"
+title = "zuozug 的博客"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "你好，我是 zuozug"
+  Content = "2026.3.5，我捡电子垃圾组了一台自用服务器，随后购买了域名。我打算在这个博客分享我在这台服务器上做的种种事情"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
